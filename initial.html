@@ -1,17 +1,61 @@
 <!doctype html>
 <html lang="pt-br">
 <head>
-<!-- METAS -->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<!-- IMPORT CSS -->
-<link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
-<!-- VUE -->
-<script src="https://cdn.jsdelivr.net/npm/vue@2.6.0"></script>
+    <!-- METAS -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- IMPORT CSS -->
+    <!-- <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <!-- VUE -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.0"></script>
 
-<script src="assets/plugins/jquery/jquery.min.js"></script>
-<script src="assets/plugins/popperjs/popper.min.js"></script>
-<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-<!-- GENERAL -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <!-- 
+    <script src="assets/plugins/jquery/jquery.min.js"></script>
+    <script src="assets/plugins/popperjs/popper.min.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script> -->
+    <!-- GENERAL -->
+
+    <title> Portal Indígena</title>
+    <link rel="icon"  type="image/png" href="assets/logo.png"/>
+    <!-- For apple devices [FIX] -->
+    <!-- <link rel="apple-touch-icon"  type="image/png" href="assets/logo.png"/> -->
+</head>
+<body>
+    <div>
+        <section id="header">
+            <button class="glyphicon glyphicon-menu-right" id="btn-arrow-right"></button>
+            <p id="header-text">Portal Indígena</p>
+        </section>
+    </div>
+    <style>
+        #header{
+            display: flex;
+            height: 50px;
+            justify-content: flex-start;
+            background: rgba(122,26,17,0.95)
+        }
+        #header-text{
+            color:white;
+            text-align: center;
+            margin-top: auto;
+            margin-bottom: auto;
+            font-family: Petrona;
+            font-size: x-large;
+        }
+        #btn-arrow-right{
+            border-style: solid;
+            border-radius: 10px;
+            width: 30px;
+            height: 30px;
+            margin: 10px;
+            background: none;
+        }
+        .glyphicon-menu-right{
+            color: white;
+        }
+    </style>
 </body>
 </html>
