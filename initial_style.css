@@ -1,0 +1,25 @@
+#header{
+    display: flex;
+    height: 50px;
+    justify-content: flex-start;
+    background: rgba(122,26,17,0.95)
+}
+#header-text{
+    color:white;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: Petrona;
+    font-size: x-large;
+}
+#btn-arrow-right{
+    border-style: solid;
+    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    background: none;
+}
+.glyphicon-menu-right{
+    color: white;
+}
