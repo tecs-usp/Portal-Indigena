@@ -24,7 +24,6 @@
 
 .absolute {
     position: absolute;
-    top: 0;
 }
 
 .filter{
@@ -48,7 +47,7 @@
 }
 
 .message {
-    top: 140px;
+    color: black;
 }
 
 #btn-arrow-right{
@@ -59,4 +58,14 @@
     margin: 10px;
     background: none;
     align-content: ;
+}
+
+.center {
+    top: 40%;
+    left: 10%;
+}
+
+.welcome-text-left {
+    width: 100px;
+    height: 80px;
 }
