@@ -18,6 +18,10 @@
     font-size: x-large;
 }
 
+.fa-chevron-right {
+    color: white;
+}
+
 .relative {
     position: relative;
 }
